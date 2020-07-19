@@ -12,6 +12,28 @@ for num in range(marks):
     else:
         print(num)
 """
+"""""
 n=int(input())
 sum=sum(range(1,n))
 print(sum)
+
+"""
+#adding the numbers in list
+
+n=int(input("enter the number of elements to be inserted"))
+a=[]
+for i in range(n):
+    elem=int(input("enter the element"))
+    a.append(elem)
+avg=sum(a)/n
+
+print(avg)
+
+
+
+
+
+
+
+
+
