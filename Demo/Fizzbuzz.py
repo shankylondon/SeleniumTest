@@ -54,7 +54,7 @@ print(Sum)
 
 """""
 
-#To check if palindrome
+#To check if palindrome.
 
 num=int(input("Please enter the number: "))
 temp=num
