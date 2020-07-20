@@ -53,7 +53,7 @@ while(num>0):
 print(Sum)
 
 """""
-
+"""""
 #To check if palindrome.
 
 num=int(input("Please enter the number: "))
@@ -68,6 +68,16 @@ if(rev==temp):
     print("the number is palindrome")
 else:
     print("its not a palindrome")
+    
+"""""
+
+#To print the table of number
+
+num=int(input('please enter the number'))
+
+for i in range(1,11):
+    table=num*i
+    print( num ,'x', i ,'=',table)
 
 
 
