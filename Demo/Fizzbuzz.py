@@ -18,6 +18,7 @@ sum=sum(range(1,n))
 print(sum)
 
 """
+"""""
 #adding the numbers in list
 
 n=int(input("enter the number of elements to be inserted"))
@@ -27,7 +28,46 @@ for i in range(n):
     a.append(elem)
 avg=sum(a)/n
 
-print(avg)
+"""
+"""""
+#Reversing the number
+
+num=int(input("Please enter the number"))
+Rev=0
+while(num>0):
+    dig=num%10
+    Rev=Rev*10+dig
+    num=num//10
+print(Rev)
+
+"""""
+"""""
+#Total sum of digits in a number
+
+num=int(input("Please enter the number"))
+Sum=0
+while(num>0):
+    dig=num%10
+    Sum=Sum+dig
+    num=num//10
+print(Sum)
+
+"""""
+
+#To check if palindrome
+
+num=int(input("Please enter the number: "))
+temp=num
+rev=0
+while(num>0):
+    dig=num%10
+    rev=rev*10+dig
+    num=num//10
+
+if(rev==temp):
+    print("the number is palindrome")
+else:
+    print("its not a palindrome")
 
 
 
