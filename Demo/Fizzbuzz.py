@@ -70,7 +70,7 @@ else:
     print("its not a palindrome")
     
 """""
-
+"""""
 #To print the table of number
 
 num=int(input('please enter the number'))
@@ -78,6 +78,10 @@ num=int(input('please enter the number'))
 for i in range(1,11):
     table=num*i
     print( num ,'x', i ,'=',table)
+    
+    
+"""
+print
 
 
 
