@@ -11,7 +11,7 @@ for row in range(6):
         elif (row == 2 and col == 4):
             print("T", end=" ")
         elif (row == 2 and col == 5):
-            print("I", end=" ")
+            print("T", end=" ")
         else:
             print(" ", end=" ")
     print()
