@@ -1,5 +1,4 @@
 
-"""""
 print('enter the value range\n')
 marks=int(input())
 for num in range(marks):
@@ -11,7 +10,6 @@ for num in range(marks):
         print('buzz')
     else:
         print(num)
-"""
 """""
 n=int(input())
 sum=sum(range(1,n))
